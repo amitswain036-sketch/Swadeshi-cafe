@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Swadeshi Cafe - Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Segoe UI', serif;
+            background-color: #fdf6ec;
+            color: #3e2723;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #4e342e;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 20px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        nav a {
+            color: #f5deb3;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            margin: 0 6px;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #d7ccc8;
+            margin: 0;
+        }
+
+        /* Main content */
+        main {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        main h2 {
+            font-size: 26px;
+            color: #4e342e;
+            margin-bottom: 24px;
+        }
+
+        /* Menu table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        thead {
+            background-color: #4e342e;
+            color: #f5deb3;
+        }
+
+        th {
+            padding: 14px 18px;
+            text-align: left;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        td {
+            padding: 14px 18px;
+            text-align: left;
+            font-size: 15px;
+            color: #5d4037;
+            border-bottom: 1px solid #eee2d6;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #fdf6ec;
+        }
+
+        tbody tr:hover {
+            background-color: #f5e8d8;
+            transition: background-color 0.2s ease;
+        }
+
+        td:last-child {
+            font-weight: 700;
+            color: #4e342e;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #4e342e;
+            color: #f5deb3;
+            text-align: center;
+            padding: 18px;
+            font-size: 13px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <h1>☕ The Swadeshi Cafe</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="menu.html">Menu</a> |
+            <a href="contact.html">Book a Table</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Our Menu & Prices</h2>
+
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Category</th>
+                    <th>Price (₹)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Masala Tea</td>
+                    <td>Hot Beverage</td>
+                    <td>₹30</td>
+                </tr>
+                <tr>
+                    <td>Cold Coffee</td>
+                    <td>Cold Beverage</td>
+                    <td>₹80</td>
+                </tr>
+                <tr>
+                    <td>Cheese Grilled Sandwich</td>
+                    <td>Snacks</td>
+                    <td>₹120</td>
+                </tr>
+                <tr>
+                    <td>Red Sauce Pasta</td>
+                    <td>Snacks</td>
+                    <td>₹150</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 The Swadeshi Cafe. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
